@@ -865,7 +865,7 @@ body {
 }
 
 /* Sustainability Section */
-
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 .container-sus {
   max-width: 100%;
   padding-left: 15px;
@@ -875,11 +875,15 @@ body {
 }
 
 .heading {
-  font-size: 2.8rem;
+  font:100 27px 'Slabo 27px', cursive;
+  text-shadow:0 3px rgb(224, 127, 1);
+  font-size: 2.4rem;
   font-weight: bold;
-  color: #f8f8f8;
+  color: #ededed;
   margin-bottom: 20px;
 }
+  
+
 
 .subtext {
   font-size: 1.2rem;
@@ -929,6 +933,7 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgb(250, 246, 202) 0px 1px 3px -1px;
 }
 
 .card i {
