@@ -522,20 +522,13 @@ body {
 
 /*progressisve counter*/
 
-.count-section {
-  background-color: #f8f9fa;
-  padding: 50px 0;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-}
-
 .count-box {
   text-align: center;
   margin-bottom: 30px;
-  padding: 10px; /* Add padding to ensure proper spacing on small screens */
-  
+  padding-top: 50px; 
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   
 }
 
